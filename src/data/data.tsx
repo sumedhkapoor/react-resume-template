@@ -1,5 +1,4 @@
 import {
-  AcademicCapIcon,
   ArrowDownTrayIcon,
   BuildingOffice2Icon,
   CalendarIcon,
@@ -9,22 +8,13 @@ import {
 } from '@heroicons/react/24/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
-import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
-import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
 import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
-import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
-import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
-import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
-import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -45,7 +35,7 @@ import {
  */
 export const homePageMeta: HomepageMeta = {
   title: 'Sumedh Kapoor Portfolio',
-  description: "Personal portfolio website of Sumedh Kapoor, AI Solution Architect",
+  description: "Personal portfolio website of Sumedh Kapoor, AI Developer | Machine Learning Engineer | Full Stack Developer",
 };
 
 /**
@@ -73,13 +63,13 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Chandigarh India based <strong className="text-stone-100">AI Solution Architect</strong>, currently working
-        at <strong className="text-stone-100">Infosys</strong> helping build AI solutions and products.
+        I'm a <strong className="text-stone-100">Machine Learning Engineer</strong> based in Chandigarh, India, currently working
+        as a <strong className="text-stone-100">Full Stack Developer</strong> at Infosys, specializing in AI and ML solutions.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
-        plucking my <strong className="text-stone-100">banjo</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Chandigarh</strong>.
+        I'm passionate about developing intelligent solutions using <strong className="text-stone-100">LLMs</strong>,{' '}
+        <strong className="text-stone-100">Computer Vision</strong>, and <strong className="text-stone-100">Full Stack Development</strong>.
+        When I'm not coding, you can find me exploring the latest AI technologies and contributing to open-source projects.
       </p>
     </>
   ),
@@ -103,16 +93,16 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `AI Developer and Machine Learning Engineer with expertise in developing end-to-end ML solutions. 
+  Proficient in Python, TensorFlow, PyTorch, and various ML frameworks. Experienced in building and deploying
+  Large Language Models (LLMs) and Computer Vision applications. Strong background in full-stack development
+  with React, Node.js, and cloud technologies.`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Location', text: 'Chandigarh, India', Icon: MapIcon},
+    {label: 'Age', text: '23', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'Indian', Icon: FlagIcon},
+    {label: 'Interests', text: 'AI/ML, Open Source, Technology', Icon: SparklesIcon},
+    {label: 'Employment', text: 'Infosys Ltd.', Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -121,70 +111,70 @@ export const aboutData: About = {
  */
 export const skills: SkillGroup[] = [
   {
-    name: 'Spoken languages',
+    name: 'AI & Machine Learning',
     skills: [
       {
-        name: 'English',
-        level: 10,
-      },
-      {
-        name: 'French',
-        level: 4,
-      },
-      {
-        name: 'Spanish',
-        level: 3,
-      },
-    ],
-  },
-  {
-    name: 'Frontend development',
-    skills: [
-      {
-        name: 'React',
+        name: 'TensorFlow',
         level: 9,
       },
       {
-        name: 'Typescript',
-        level: 7,
+        name: 'PyTorch',
+        level: 8,
       },
       {
-        name: 'GraphQL',
-        level: 6,
+        name: 'LLMs & NLP',
+        level: 8,
       },
     ],
   },
   {
-    name: 'Backend development',
+    name: 'Programming Languages',
     skills: [
+      {
+        name: 'Python',
+        level: 9,
+      },
+      {
+        name: 'JavaScript',
+        level: 8,
+      },
+      {
+        name: 'TypeScript',
+        level: 8,
+      },
+    ],
+  },
+  {
+    name: 'Web Development',
+    skills: [
+      {
+        name: 'React',
+        level: 8,
+      },
       {
         name: 'Node.js',
         level: 8,
       },
       {
-        name: 'Rust',
-        level: 5,
-      },
-      {
-        name: 'Golang',
-        level: 4,
+        name: 'Next.js',
+        level: 7,
       },
     ],
   },
   {
-    name: 'Mobile development',
+    name: 'Tools & Technologies',
     skills: [
       {
-        name: 'React Native',
+        name: 'Git',
         level: 9,
       },
       {
-        name: 'Flutter',
-        level: 4,
+        name: 'Docker',
+        level: 7,
       },
       {
-        name: 'Swift',
-        level: 3,
+        name: 'Azure',
+        level: 8,
       },
     ],
   },
@@ -195,111 +185,157 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'AI-Powered Document Processing System',
+    description: 'Developed an intelligent document processing system using Azure Cognitive Services and LangChain. Implemented OCR, document understanding, and custom LLM models for automated information extraction.',
+    url: 'https://github.com/sumedhkapoor',
     image: porfolioImage1,
   },
   {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Enterprise Chat Application',
+    description: 'Built a secure enterprise chat application using React, Node.js, and Azure. Integrated Microsoft Graph API for seamless authentication and Azure services for real-time communication.',
+    url: 'https://github.com/sumedhkapoor',
     image: porfolioImage2,
   },
   {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Face Recognition System',
+    description: 'Created a real-time face detection and recognition system using Python, OpenCV, and deep learning models. Implemented for educational institution attendance tracking.',
+    url: 'https://github.com/sumedhkapoor',
     image: porfolioImage3,
   },
   {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Student Performance Prediction Model',
+    description: 'Developed a machine learning model using Python and scikit-learn to predict student academic performance. Implemented feature engineering and model optimization techniques.',
+    url: 'https://github.com/sumedhkapoor',
     image: porfolioImage4,
   },
   {
-    title: 'Project title 5',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'AI Education Research Platform',
+    description: 'Led the development of a research platform for studying AI applications in education. Implemented data collection, analysis, and visualization tools.',
+    url: 'https://github.com/sumedhkapoor',
     image: porfolioImage5,
-  },
-  {
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage6,
-  },
-  {
-    title: 'Project title 7',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage7,
-  },
-  {
-    title: 'Project title 8',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage8,
-  },
-  {
-    title: 'Project title 9',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage9,
-  },
-  {
-    title: 'Project title 10',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage10,
-  },
-  {
-    title: 'Project title 11',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage11,
   },
 ];
 
 /**
  * Resume section -- TODO: Standardize resume contact format or offer MDX
  */
-export const education: TimelineItem[] = [
-  {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
-  },
-  {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
-  },
-];
+export const education: TimelineItem[] = [];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'October 2022 - Present',
+    location: 'Infosys Ltd., Chandigarh, India',
+    title: 'Senior Principal Software Architect',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        • Leading architectural decisions and implementations for enterprise-scale applications<br />
+        • Specializing in Web Development, Software Architecture, and AWS cloud solutions<br />
+        • Driving technical innovation and establishing architectural standards across projects<br />
+        • Mentoring teams and ensuring best practices in software development
       </p>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: 'July 2021 - September 2022',
+    location: 'Infosys Ltd., Chandigarh, India',
+    title: 'Principal Technology Architect',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        • Led architecture for a leading global asset manager's frontend development<br />
+        • Implemented micro-services architecture using Angular<br />
+        • Managed AWS cloud deployment and infrastructure<br />
+        • Ensured scalability and performance of enterprise applications
+      </p>
+    ),
+  },
+  {
+    date: 'April 2014 - January 2020',
+    location: 'Infosys Ltd., Chandigarh, India',
+    title: 'Principal Technology Architect',
+    content: (
+      <p>
+        • Led iOS and Android native mobile app redesign with 5M+ users for US insurance company<br />
+        • Architected multi-million-dollar cloud migration using Angular and Spring Boot on Azure<br />
+        • Designed large-scale enterprise iOS application for US medical equipment manufacturer<br />
+        • Established engineering standards and best practices across the unit
+      </p>
+    ),
+  },
+  {
+    date: 'September 2013 - March 2014',
+    location: 'Threadient Infotech, Panchkula, India',
+    title: 'Founder',
+    content: (
+      <p>
+        • Built an eCommerce platform using Magento for flower ordering and delivery<br />
+        • Scaled operations across 100 cities in India<br />
+        • Achieved cash flow positive status from day one<br />
+        • Managed end-to-end technical and business operations
+      </p>
+    ),
+  },
+  {
+    date: 'April 2013 - July 2013',
+    location: 'Tech Mahindra, Chandigarh, India',
+    title: 'Senior Technology Architect - Mobility',
+    content: (
+      <p>
+        • Headed Mobility unit at Chandigarh development center<br />
+        • Created technical solutions for RFPs and led pre-sales technical presentations<br />
+        • Provided technical oversight for all mobility projects<br />
+        • Managed technical delivery and quality assurance
+      </p>
+    ),
+  },
+  {
+    date: 'March 2012 - March 2013',
+    location: 'Publicis Sapient, Gurugram, India',
+    title: 'Senior Technology Manager',
+    content: (
+      <p>
+        • Led multi-million-dollar eCommerce implementation using Demandware SAAS<br />
+        • Managed project estimation, technical architecture, and code quality<br />
+        • Developed native Mobile-Commerce Android application<br />
+        • Finalist for Sapient 2013 Distinguished Technologist Program
+      </p>
+    ),
+  },
+  {
+    date: 'April 2005 - March 2012',
+    location: 'Infosys Ltd., Chandigarh, India',
+    title: 'Senior Technology Architect – Telecom Practice',
+    content: (
+      <p>
+        • Architected mobility solutions for global mobile service provider<br />
+        • Developed Android tablet application for live TV streaming and program recording<br />
+        • Designed SOA-based offers platform for digital coupons over mobile phones<br />
+        • Created workflow-based web service platform for enterprise customers
+      </p>
+    ),
+  },
+  {
+    date: 'March 2004 - March 2005',
+    location: 'Tata Consultancy Services, Mumbai, India',
+    title: 'IT Analyst',
+    content: (
+      <p>
+        • Led development of FOREX module for Thomas Cook's Front Office System<br />
+        • Managed client interactions and production system issues<br />
+        • Developed business reports using Crystal Reports<br />
+        • Implemented Java Swing-based solutions
+      </p>
+    ),
+  },
+  {
+    date: 'October 1998 - December 2003',
+    location: 'ICE Data Services, New York, United States',
+    title: 'Project Lead',
+    content: (
+      <p>
+        • Led Y2K migration of stock exchange data feed handlers to Java<br />
+        • Developed low-latency real-time data processing systems<br />
+        • Implemented feed handlers for major global exchanges including LSE, ASX, TSE<br />
+        • Mentored team members and ensured performance SLAs were met
       </p>
     ),
   },
@@ -335,27 +371,22 @@ export const testimonial: TestimonialSection = {
 
 export const contact: ContactSection = {
   headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  description: 'Feel free to reach out for collaborations or just a friendly hello! I\'m always open to discussing new projects and opportunities.',
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'sumedhkapoor.sk@gmail.com',
+      href: 'mailto:sumedhkapoor.sk@gmail.com',
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
-    },
-    {
-      type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
+      text: 'Chandigarh, India',
+      href: 'https://www.google.com/maps/place/Chandigarh',
     },
     {
       type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      text: 'sumedhkapoor',
+      href: 'https://github.com/sumedhkapoor',
     },
   ],
 };
@@ -364,9 +395,6 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/reactresume/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/sumedhkapoor'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/sumedh-kapoor-7a693220b/'},
 ];
